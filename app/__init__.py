@@ -7,5 +7,5 @@ app = Flask(__name__)
 
 @app.get('/aboutme')
 def aboutme():
-    me = {'first_name': 'John', 'last_name': 'Garcia', 'hobby': 'Gaming'}
+    me = {'first_name': 'John', 'last_name': 'Garcia', 'hobby': 'Gaming', 'active': True}
     return (me)
